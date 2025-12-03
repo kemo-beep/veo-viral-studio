@@ -1,0 +1,5 @@
+{
+  "name": "Veo Viral Studio",
+  "description": "Generate viral short videos instantly using Google's Veo 3 model. Text-to-video and Image-to-video creation suite.",
+  "requestFramePermissions": []
+}
