@@ -32,6 +32,16 @@ export interface VeoConfig {
   } | null;
 }
 
+export interface HistoryItem {
+  id: string;
+  timestamp: number;
+  prompt: string;
+  aspectRatio: '16:9' | '9:16';
+  resolution: '720p' | '1080p';
+  hasStartFrame: boolean;
+  hasEndFrame: boolean;
+}
+
 // Window interface extension for AI Studio
 declare global {
   interface AIStudio {

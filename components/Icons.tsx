@@ -159,3 +159,7 @@ export const InfoIcon = ({ className }: { className?: string }) => (
 export const MenuIcon = ({ className }: { className?: string }) => (
   <IconWrapper icon={Menu01Icon} className={className} />
 );
+
+export const MoveUpIcon = ({ className }: { className?: string }) => (
+  <IconWrapper icon={ArrowUp01Icon} className={className} />
+);
